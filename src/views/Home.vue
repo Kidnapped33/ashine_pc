@@ -1,5 +1,6 @@
 <template>
   <div>
+    <router-link to="/">退出登录</router-link>
     <div class="common-layout">
       <el-container>
         <el-aside width="400px" class="menu">

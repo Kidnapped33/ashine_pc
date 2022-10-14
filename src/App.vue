@@ -5,29 +5,16 @@ import Home from "./views/Home.vue";
 
 <template>
   <div>
-    <router-link to="/Home">Home</router-link>
-    |
-    <router-link to="/">Login</router-link>
-
+    <!-- <router-link to="/Home">主页</router-link> -->
+    <!-- | -->
+    <!-- <router-link to="/">退出登录</router-link> -->
     <router-view></router-view>
-
   </div>
   
 </template>
 
 <style scoped lang="scss">
-.menu {
-  background-color: pink;
-}
-.nav {
-  background-color: rgb(218, 214, 139);
-}
-.main {
-  background-color: rgb(113, 113, 221);
-}
-.footer {
-  background-color: blueviolet;
-}
+
 /* .logo {
   height: 6em;
   padding: 1.5em;
