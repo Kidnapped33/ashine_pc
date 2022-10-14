@@ -94,13 +94,14 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10%;
+  height: 100vh;
 
   > .contain {
     border: 1px solid rgb(223, 216, 216);
     border-radius: 10px;
     width: 20%;
     padding: 45px 70px 20px 0;
+    margin-top: -200px;
   }
 }
 </style>

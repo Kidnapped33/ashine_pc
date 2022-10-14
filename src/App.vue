@@ -4,7 +4,7 @@ import Home from "./views/Home.vue";
 </script>
 
 <template>
-  <div>
+  <div class="xxx">
     <!-- <router-link to="/Home">主页</router-link> -->
     <!-- | -->
     <!-- <router-link to="/">退出登录</router-link> -->
@@ -14,6 +14,10 @@ import Home from "./views/Home.vue";
 </template>
 
 <style scoped lang="scss">
+.xxx{
+  // border: 1px solid red;
+  // height: 100vh
+}
 
 /* .logo {
   height: 6em;
